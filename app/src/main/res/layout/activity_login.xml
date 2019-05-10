@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login">
+    tools:context=".Login"
+    android:background="@mipmap/back">
 
     <TextView
         android:id="@+id/txtdisplay"
@@ -13,7 +14,7 @@
         android:text="Welcome To Login Page"
         android:textAlignment="center"
         android:textSize="30dp"
-        android:textColor="#1993EE"
+        android:textColor="#1565C0"
         android:textStyle="bold"/>
 
     <EditText
@@ -22,6 +23,8 @@
         android:layout_height="70dp"
         android:layout_marginTop="250dp"
         android:hint="Enter username"
+        android:textColorHint="#283593"
+        android:drawableLeft="@drawable/ic_account_user"
         android:textAlignment="center"
         android:textSize="25dp"
         android:textStyle="bold"
@@ -33,7 +36,9 @@
         android:layout_width="400dp"
         android:layout_height="70dp"
         android:layout_marginTop="320dp"
+       android:drawableLeft="@drawable/ic_lock_pass"
         android:hint="Enter password"
+        android:textColorHint="#283593"
         android:textAlignment="center"
         android:textSize="25dp"
         android:textStyle="bold"
@@ -46,7 +51,9 @@
         android:layout_height="60dp"
         android:layout_marginTop="450dp"
         android:text="login"
+        android:textColor="#B2C4CC"
         android:textSize="25dp"
+        android:background="#1E88E5"
         android:layout_marginLeft="110dp"/>
 
 
@@ -60,7 +67,7 @@
         android:textSize="20dp"
         android:layout_marginLeft="20dp"
         android:textStyle="bold"
-        android:textColor="#1A1818"/>
+        android:textColor="#162DE9"/>
 
     <Button
         android:id="@+id/btn_register"
@@ -69,7 +76,17 @@
         android:layout_marginTop="640dp"
         android:text="Register"
         android:textSize="25dp"
+        android:textColor="#B2C4CC"
+        android:background="#1E88E5"
         android:layout_marginLeft="100dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/a"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="100dp"/>
 
 
 </RelativeLayout>
