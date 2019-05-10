@@ -1,9 +1,127 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Register">
 
-</android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/txtr1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Register Page"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        />
+
+    <EditText
+        android:id="@+id/etfname"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="70dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:inputType="text"
+        android:hint="Enter Your FirsttName"
+        android:textAlignment="center"/>
+
+
+    <EditText
+        android:id="@+id/etlname"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="140dp"
+         android:textSize="25dp"
+        android:textStyle="bold"
+        android:inputType="text"
+        android:hint="Enter Your LasttName"
+        android:textAlignment="center"/>
+
+
+    <EditText
+        android:id="@+id/etcontact"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="210dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:hint="Enter Your ContactNumber"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="280dp"
+        android:textSize="25dp"
+        android:hint="Enter Your Email"
+        android:textStyle="bold"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/etuser"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="350dp"
+        android:textSize="25dp"
+        android:hint="Chose User Name"
+        android:textStyle="bold"
+        android:inputType="text"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/etpass"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="420dp"
+        android:textSize="25dp"
+        android:inputType="textPassword"
+        android:hint="Enter Password"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/etconfirm"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="490dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:inputType="textPassword"
+        android:hint="Confirm Password"
+        android:textAlignment="center"/>
+
+  <Button
+      android:id="@+id/btnregister"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Register"
+      android:layout_marginTop="580dp"
+      android:textSize="20dp"
+      android:layout_marginLeft="130dp"/>
+
+
+    <TextView
+        android:id="@+id/r2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go To Login Page"
+        android:layout_marginTop="640dp"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnregister1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_marginTop="680dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="130dp"/>
+
+</RelativeLayout>
